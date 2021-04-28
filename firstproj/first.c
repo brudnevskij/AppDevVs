@@ -1,8 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+int dlen(int n) {
+	int len = 0;
+	while (n > 0) {
+		n /= 10; ++len;   // these two statement will be executed as one step.
+	}
+	return len;
+}
+
 int main(void) {
-	int a, b;
+	/*int a, b;
 	printf("Enter 2 numbers");
 	scanf("%d%d", &a, &b);
 	if (a>b)
@@ -24,6 +32,8 @@ int main(void) {
 		}
 		
 		
-	}
+	}*/
+	printf("%d", dlen(10234));
+	
 	return 0;
 }

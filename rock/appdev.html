@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<title>
+APPDEV
+</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<script>
+function getdata(){
+	fetch('http://www.cc.puv.fi/~e2001979/record.txt')
+	.then(r => r.text())
+	.then(data => dispdata(data));
+}
+
+function dispdata(d){
+	var ctt = document.getElementById("data");
+	let crd = document.getElementById("cardid");
+	var lines = d.split("\n");
+	let cardlines =[];
+
+	for( let i =0; i < lines.length - 1; i++){
+		//this is message limit this helps to solve some security issues	
+		cardlines[i] = lines[i].split(" ");
+		if(cardlines[i][4].length > 20) {
+			lines.splice(i, 1);
+			cardlines.splice(i, 1);
+		}
+	}
+	
+	
+	while(typeof lines[0] !== "undefined"){
+		let line = lines.shift();
+		ctt.innerHTML +=  line +"<br/>";
+}
+	//console.log(100 -Number(cardlines[0][3]));
+	for(i = 0; i < cardlines.length; i++){
+		crd.innerHTML += '<div class="card">' + '<div class="card_data">' + cardlines[i][0] + '<br/>' + cardlines[i][1] + '<br/> min:' + cardlines[i][2] + ', max:' + cardlines[i][3]+ '<br/> User:'+ cardlines[i][4] + '<br/> IP: '+ cardlines[i][5] +'</div>' + '<div class="card_graph">'+ '<div class="max_cont">'+'<div class = "max_cont_keeper">'+ '<div style="height:'+ (100 - Number(cardlines[i][3]))+'%;">' + '</div>' + '<div class="max_filler" style="height:'+ cardlines[i][3] +'%;">' + '</div>' +'</div>' + 'max: '+cardlines[i][3]+'</div>' + '<div class="min_cont">'+ '<div class = "min_cont_keeper">'+ '<div style="height:'+ (100 - Number(cardlines[i][2]))+'%;">' + '</div>' + '<div class="min_filler" style="height:'+ cardlines[i][2] +'%;">' + '</div>' +'</div>' + 'min: '+cardlines[i][2]+'</div>' +'</div>' +'</div>' + '</div>';
+
+	}
+
+}
+</script>
+<body onload=getdata()>
+
+<h1>Story n Numbers</h1>
+<div class='cards' id="cardid" style="display: flex"></div>
+<h2>Text log</h2>
+<div class="textlog">
+<p id="data"> </p>
+</div>
+</body>
+</html>

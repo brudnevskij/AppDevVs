@@ -1,0 +1,52 @@
+body{
+	background-color: #2E3142;
+	color: #fff;
+	font-family: 'Roboto';
+}
+
+.card{
+	width: 180px;
+	height: 220px;
+	margin: 10px;
+	background-color: #2A2D3A;
+}
+
+.card_graph{
+	display: flex;
+	
+}
+
+.max_cont{
+	height: 120px;
+}
+
+.min_cont{
+	height: 120px;
+}
+
+.max_cont_keeper{
+	height: 100px;
+	
+}
+
+.max_filler{
+	background-color: #FBD822;
+	 
+	}
+
+.min_cont_keeper{
+	height: 100px;
+	
+}
+
+.min_filler{
+	background-color: #fb6722;
+	 
+}
+
+.textlog{
+	background-color: black;
+	width: 600px;
+}
+
+

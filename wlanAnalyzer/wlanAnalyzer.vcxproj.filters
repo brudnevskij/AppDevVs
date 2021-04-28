@@ -18,21 +18,13 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="send_data.c">
+    <ClCompile Include="wlanAnalyse.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="appdev.h">
+    <ClInclude Include="wlanAn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="testCurl.php">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="appdev.html">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

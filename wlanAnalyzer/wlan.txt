@@ -1,0 +1,15 @@
+ 
+Interface name : Беспроводная сеть 
+There are 1 networks currently visible. 
+
+SSID 1 : kuchinella
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : d8:32:14:59:30:c1
+         Signal             : 95%  
+         Radio type         : 802.11n
+         Channel            : 2 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+

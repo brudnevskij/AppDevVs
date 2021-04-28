@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{712b47a9-3360-4e3e-8923-20c2d2b7730e}</ProjectGuid>
-    <RootNamespace>rock</RootNamespace>
+    <ProjectGuid>{5376d214-9967-422d-8747-0475624dbb95}</ProjectGuid>
+    <RootNamespace>wlanAnalyzer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,14 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="send_data.c" />
+    <ClCompile Include="wlanAnalyse.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="appdev.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="appdev.html" />
-    <None Include="testCurl.php" />
+    <ClInclude Include="wlanAn.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
