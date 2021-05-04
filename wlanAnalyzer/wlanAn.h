@@ -11,11 +11,11 @@ enum LINE_TYPE {UNKNOWN=-1, SSID, NET, AUTH, ENCRYP, BSSID, SIG=10, RADIO, CH};
 struct ap {
 	char apmac[20];
 	int signalStrenght;
-	int channel;
+	char channel[10];
 };
 
 struct ssid {
-	char ssid[30];
+	char ssid[50];
 	int numAp;
 	struct ap apList[20];
 };
