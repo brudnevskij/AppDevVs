@@ -22,8 +22,10 @@ struct ssid {
 
 int wlanCount(FILE*);
 void wlanAnalyse(FILE* fp);
-int wlanNumber(char*);
-char* readValue(char*, int);
 enum LINE_TYPE whatLine(char*);
 void showWlan(struct ssid*, int);
-void takeAwayNewLine(char*);
+int readSignal(char*);
+int readCh(char*);
+char* readValue(char*);
+int wlanCount(FILE* );
+enum LINE_TYPE whatLine(char*);

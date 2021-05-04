@@ -21,6 +21,18 @@
     <ClCompile Include="wlanAnalyse.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="readers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wlanCount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="whatLine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showWlan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="wlanAn.h">

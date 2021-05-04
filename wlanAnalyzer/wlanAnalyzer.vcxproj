@@ -140,7 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="readers.c" />
+    <ClCompile Include="showWlan.c" />
+    <ClCompile Include="whatLine.c" />
     <ClCompile Include="wlanAnalyse.c" />
+    <ClCompile Include="wlanCount.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="wlanAn.h" />

@@ -1,19 +1,85 @@
  
 Interface name : Беспроводная сеть 
-There are 22 networks currently visible. 
+There are 21 networks currently visible. 
 
-SSID 1 : Alessi France
+SSID 1 : Livebox-F51F
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
-    Encryption              : TKIP 
-    BSSID 1                 : 00:24:97:44:05:b0
+    Encryption              : CCMP 
+    BSSID 1                 : 30:7c:b2:22:f5:1f
          Signal             : 22%  
-         Radio type         : 802.11a
-         Channel            : 52 
-         Basic rates (Mbps) : 6 12 24
-         Other rates (Mbps) : 9 18 36 48 54
+         Radio type         : 802.11n
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 2 : LAGUIOLE GALERIE
+SSID 2 : SFR-96d8
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : f4:6b:ef:50:96:de
+         Signal             : 43%  
+         Radio type         : 802.11n
+         Channel            : 6 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 3 : Livebox-1A70
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 4c:1b:86:ec:3b:12
+         Signal             : 62%  
+         Radio type         : 802.11n
+         Channel            : 1 
+         Basic rates (Mbps) : 1 2 5.5 6 9 11 12 18 24 36 48 54
+    BSSID 2                 : 46:1b:86:ec:3b:10
+         Signal             : 31%  
+         Radio type         : 802.11ac
+         Channel            : 60 
+         Basic rates (Mbps) : 6
+         Other rates (Mbps) : 9 12 18 24 36 48 54
+
+SSID 4 : Boissy2P
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 7c:26:64:6a:93:f5
+         Signal             : 18%  
+         Radio type         : 802.11ac
+         Channel            : 60 
+         Basic rates (Mbps) : 6
+         Other rates (Mbps) : 9 12 18 24 36 48 54
+    BSSID 2                 : 7c:26:64:6a:93:f0
+         Signal             : 40%  
+         Radio type         : 802.11n
+         Channel            : 6 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 5 : Boissy
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 30:24:78:2c:ff:d0
+         Signal             : 31%  
+         Radio type         : 802.11n
+         Channel            : 6 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 6 : SFR_3AA0
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : cc:2d:1b:73:3a:a6
+         Signal             : 40%  
+         Radio type         : 802.11n
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 7 : LAGUIOLE GALERIE
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
@@ -30,85 +96,46 @@ SSID 2 : LAGUIOLE GALERIE
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 3 : Bbox-E601D6B7
+SSID 8 : Bbox-E601D6B7
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 64:7c:34:e5:94:21
-         Signal             : 35%  
+         Signal             : 31%  
          Radio type         : 802.11n
          Channel            : 36 
          Basic rates (Mbps) : 6 12 24
          Other rates (Mbps) : 9 18 36 48 54
     BSSID 2                 : 64:7c:34:e5:94:1c
-         Signal             : 82%  
+         Signal             : 75%  
          Radio type         : 802.11n
          Channel            : 1 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 4 : Bbox-E601D6B7-5GHz
+SSID 9 : Bbox-E601D6B7-5GHz
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 64:7c:34:e5:94:20
-         Signal             : 33%  
+         Signal             : 31%  
          Radio type         : 802.11n
          Channel            : 36 
          Basic rates (Mbps) : 6 12 24
          Other rates (Mbps) : 9 18 36 48 54
 
-SSID 5 : Livebox-95B8
-    Network type            : Infrastructure
-    Authentication          : WPA2-Personal
-    Encryption              : CCMP 
-    BSSID 1                 : 78:b2:13:15:95:b8
-         Signal             : 16%  
-         Radio type         : 802.11n
-         Channel            : 11 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-
-SSID 6 : FreeWifi
-    Network type            : Infrastructure
-    Authentication          : Open
-    Encryption              : None 
-    BSSID 1                 : 34:27:92:c8:53:45
-         Signal             : 24%  
-         Radio type         : 802.11n
-         Channel            : 11 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 2                 : 68:a3:78:d7:a6:89
-         Signal             : 94%  
-         Radio type         : 802.11n
-         Channel            : 6 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-
-SSID 7 : Livebox-F51F
-    Network type            : Infrastructure
-    Authentication          : WPA2-Personal
-    Encryption              : CCMP 
-    BSSID 1                 : 30:7c:b2:22:f5:1f
-         Signal             : 20%  
-         Radio type         : 802.11n
-         Channel            : 11 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-
-SSID 8 : FreeWifi_secure
+SSID 10 : FreeWifi_secure
     Network type            : Infrastructure
     Authentication          : WPA2-Enterprise
     Encryption              : CCMP 
     BSSID 1                 : 68:a3:78:d7:a6:8a
-         Signal             : 90%  
+         Signal             : 91%  
          Radio type         : 802.11n
          Channel            : 6 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
     BSSID 2                 : 70:fc:8f:39:a4:6e
-         Signal             : 88%  
+         Signal             : 86%  
          Radio type         : 802.11n
          Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
@@ -120,74 +147,58 @@ SSID 8 : FreeWifi_secure
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 9 : Livebox-1A70
-    Network type            : Infrastructure
-    Authentication          : WPA2-Personal
-    Encryption              : CCMP 
-    BSSID 1                 : 4c:1b:86:ec:3b:12
-         Signal             : 46%  
-         Radio type         : 802.11n
-         Channel            : 1 
-         Basic rates (Mbps) : 1 2 5.5 6 9 11 12 18 24 36 48 54
-    BSSID 2                 : 46:1b:86:ec:3b:10
-         Signal             : 24%  
-         Radio type         : 802.11ac
-         Channel            : 60 
-         Basic rates (Mbps) : 6
-         Other rates (Mbps) : 9 12 18 24 36 48 54
-
-SSID 10 : Livebox-BCDE
+SSID 11 : Livebox-BCDE
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 40:5a:9b:f1:bc:df
-         Signal             : 53%  
+         Signal             : 38%  
          Radio type         : 802.11n
          Channel            : 136 
          Basic rates (Mbps) : 6 12 24
          Other rates (Mbps) : 9 18 36 48 54
     BSSID 2                 : 40:5a:9b:f1:bc:de
-         Signal             : 72%  
+         Signal             : 62%  
          Radio type         : 802.11n
          Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 11 : freebox_TDG
+SSID 12 : freebox_TDG
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 00:07:cb:29:b0:e4
-         Signal             : 38%  
+         Signal             : 22%  
          Radio type         : 802.11ac
          Channel            : 116 
          Basic rates (Mbps) : 6 12 24
          Other rates (Mbps) : 9 18 36 48 54
     BSSID 2                 : 68:a3:78:0c:eb:a9
-         Signal             : 70%  
+         Signal             : 62%  
          Radio type         : 802.11n
          Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 12 : Livebox-19F0
+SSID 13 : Livebox-19F0
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : d4:f8:29:57:19:f5
-         Signal             : 20%  
+         Signal             : 18%  
          Radio type         : 802.11ac
          Channel            : 108 
          Basic rates (Mbps) : 6
          Other rates (Mbps) : 9 12 18 24 36 48 54
     BSSID 2                 : d4:f8:29:57:19:f0
-         Signal             : 65%  
+         Signal             : 43%  
          Radio type         : 802.11n
          Channel            : 6 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 13 : Livebox-D156
+SSID 14 : Livebox-D156
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
@@ -198,43 +209,26 @@ SSID 13 : Livebox-D156
          Basic rates (Mbps) : 6
          Other rates (Mbps) : 9 12 18 24 36 48 54
     BSSID 2                 : 30:7c:b2:b7:d1:56
-         Signal             : 81%  
+         Signal             : 72%  
          Radio type         : 802.11n
-         Channel            : 1 
+         Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 14 : Coves
+SSID 15 : Coves
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 78:81:02:5c:a5:f9
-         Signal             : 46%  
+         Signal             : 31%  
          Radio type         : 802.11ac
          Channel            : 108 
          Basic rates (Mbps) : 6
          Other rates (Mbps) : 9 12 18 24 36 48 54
     BSSID 2                 : 78:81:02:5c:a5:f4
-         Signal             : 29%  
+         Signal             : 67%  
          Radio type         : 802.11n
          Channel            : 1 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-
-SSID 15 : Boissy2P
-    Network type            : Infrastructure
-    Authentication          : WPA2-Personal
-    Encryption              : CCMP 
-    BSSID 1                 : 7c:26:64:6a:93:f5
-         Signal             : 20%  
-         Radio type         : 802.11ac
-         Channel            : 60 
-         Basic rates (Mbps) : 6
-         Other rates (Mbps) : 9 12 18 24 36 48 54
-    BSSID 2                 : 7c:26:64:6a:93:f0
-         Signal             : 24%  
-         Radio type         : 802.11n
-         Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
@@ -243,7 +237,7 @@ SSID 16 : Boissy-5GHz
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 26:24:78:2c:ff:d4
-         Signal             : 26%  
+         Signal             : 16%  
          Radio type         : 802.11ac
          Channel            : 36 
          Basic rates (Mbps) : 6
@@ -254,33 +248,27 @@ SSID 17 : orange
     Authentication          : Open
     Encryption              : None 
     BSSID 1                 : 42:5a:9b:f1:bc:de
-         Signal             : 72%  
+         Signal             : 62%  
          Radio type         : 802.11n
          Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
     BSSID 2                 : 7c:26:64:6a:93:f1
-         Signal             : 29%  
-         Radio type         : 802.11n
-         Channel            : 11 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 3                 : f0:81:75:6d:24:d1
-         Signal             : 62%  
+         Signal             : 43%  
          Radio type         : 802.11n
          Channel            : 6 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 4                 : 78:81:02:5c:a5:f5
-         Signal             : 31%  
+    BSSID 3                 : 78:81:02:5c:a5:f5
+         Signal             : 75%  
          Radio type         : 802.11n
          Channel            : 1 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 5                 : 30:7c:b2:b7:d1:57
-         Signal             : 72%  
+    BSSID 4                 : 30:7c:b2:b7:d1:57
+         Signal             : 70%  
          Radio type         : 802.11n
-         Channel            : 1 
+         Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
@@ -289,18 +277,18 @@ SSID 18 : freebox_GIPJAN
     Authentication          : WPA-Personal
     Encryption              : CCMP 
     BSSID 1                 : 70:fc:8f:39:a4:6c
-         Signal             : 88%  
+         Signal             : 86%  
          Radio type         : 802.11n
          Channel            : 11 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 19 : Livebox-24D0
+SSID 19 : FreeWifi
     Network type            : Infrastructure
-    Authentication          : WPA2-Personal
-    Encryption              : CCMP 
-    BSSID 1                 : f0:81:75:6d:24:d0
-         Signal             : 65%  
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 68:a3:78:d7:a6:89
+         Signal             : 94%  
          Radio type         : 802.11n
          Channel            : 6 
          Basic rates (Mbps) : 1 2 5.5 11
@@ -311,29 +299,18 @@ SSID 20 : Boissypig
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 68:a3:78:d7:a6:88
-         Signal             : 93%  
+         Signal             : 94%  
          Radio type         : 802.11n
          Channel            : 6 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 21 : Bbox-40A46549
-    Network type            : Infrastructure
-    Authentication          : WPA2-Personal
-    Encryption              : CCMP 
-    BSSID 1                 : 30:24:78:6a:5e:e0
-         Signal             : 22%  
-         Radio type         : 802.11n
-         Channel            : 1 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-
-SSID 22 : Orange Airbox-FCC4
+SSID 21 : Orange Airbox-FCC4
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : dc:09:4c:9a:fc:c4
-         Signal             : 46%  
+         Signal             : 65%  
          Radio type         : 802.11n
          Channel            : 1 
          Basic rates (Mbps) : 1 2 5.5 11
